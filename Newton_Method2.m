@@ -3,7 +3,7 @@ f = @(x1,x2) 13.5*x1.^2+128*x2.^2-0.3*cos(3*pi*x1)-0.4*cos(4*pi*x2) +0.7;
 g = @(x1,x2) [27*x1+0.9*pi*sin(3*pi*x1); 256*x2+1.6*pi*sin(4*pi*x2)];
 
 h = @(x1,x2) [27+2.7*pi^2*cos(3*pi*x1),0;
-              0, 256+6.5*pi^2*cos(4*pi*x2)];
+              0, 256+6.4*pi^2*cos(4*pi*x2)];
 
 x0 =[5;5]; %Starting point
 alpha = 0.020; %Learning rate
